@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import Square from './components/Square'
 import Circle from './components/Circle';
+import BorderSquare from './components/BorderSquare';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <div className="App" style={styles}>
       <Square />
       <Circle />
+      <BorderSquare />
     </div>
   );
 }
