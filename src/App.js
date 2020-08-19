@@ -4,6 +4,7 @@ import Square from './components/Square'
 import Circle from './components/Circle';
 import BorderSquare from './components/BorderSquare';
 import AltSquare from './components/AltSquare';
+import Leaf from './components/Leaf';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Circle />
       <BorderSquare />
       <AltSquare />
+      <Leaf />
     </div>
   );
 }
