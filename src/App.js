@@ -3,6 +3,7 @@ import './App.css'
 import Square from './components/Square'
 import Circle from './components/Circle';
 import BorderSquare from './components/BorderSquare';
+import AltSquare from './components/AltSquare';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Square />
       <Circle />
       <BorderSquare />
+      <AltSquare />
     </div>
   );
 }
