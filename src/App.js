@@ -6,6 +6,7 @@ import BorderSquare from './components/BorderSquare';
 import AltSquare from './components/AltSquare';
 import Leaf from './components/Leaf';
 import Lemon from './components/Lemon';
+import Mailbox from './components/Mailbox';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <AltSquare />
       <Leaf />
       <Lemon />
+      <Mailbox />
     </div>
   );
 }
