@@ -7,6 +7,9 @@ import AltSquare from './components/AltSquare';
 import Leaf from './components/Leaf';
 import Lemon from './components/Lemon';
 import Mailbox from './components/Mailbox';
+import Equality from './components/Equality';
+import SquareX from './components/SquareX';
+import WhiteCross from './components/WhiteCross';
 
 function App() {
 
@@ -26,6 +29,9 @@ function App() {
       <Leaf />
       <Lemon />
       <Mailbox />
+      <Equality />
+      <WhiteCross />
+      <SquareX />
     </div>
   );
 }
