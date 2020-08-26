@@ -14,6 +14,7 @@ import CircleX from './components/CircleX';
 import Arrow from './components/Arrow';
 import Robot from './components/Robot';
 import Vampire from './components/Vampire';
+import Bird from './components/Bird';
 
 function App() {
 
@@ -42,6 +43,7 @@ function App() {
       <Arrow />
       <Robot />
       <Vampire />
+      <Bird />
     </div>
   );
 }

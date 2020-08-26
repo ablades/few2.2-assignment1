@@ -6,6 +6,7 @@ function Vampire() {
         height: '100px',
         backgroundColor: 'white',
         border: '5px solid black',
+        borderRadius: '20px 20px 30px 30px'
     }
 
     const mouth = {
