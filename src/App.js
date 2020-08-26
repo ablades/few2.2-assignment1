@@ -12,14 +12,18 @@ import SquareX from './components/SquareX';
 import WhiteCross from './components/WhiteCross';
 import CircleX from './components/CircleX';
 import Arrow from './components/Arrow';
+import Robot from './components/Robot';
+import Vampire from './components/Vampire';
 
 function App() {
 
   const styles = {
     display: 'grid',
-    gridGap: '3px',
+    gridGap: '10px',
+    margin: '10px',
+    padding: '40px',
     justifyItems: 'center',
-    gridTemplateColumns: '1fr 1fr',
+    gridTemplateColumns: '1fr 1fr 1fr 1fr',
   }
 
   return (
@@ -36,6 +40,8 @@ function App() {
       <SquareX />
       <CircleX />
       <Arrow />
+      <Robot />
+      <Vampire />
     </div>
   );
 }
