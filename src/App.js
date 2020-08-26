@@ -10,6 +10,8 @@ import Mailbox from './components/Mailbox';
 import Equality from './components/Equality';
 import SquareX from './components/SquareX';
 import WhiteCross from './components/WhiteCross';
+import CircleX from './components/CircleX';
+import Arrow from './components/Arrow';
 
 function App() {
 
@@ -32,6 +34,8 @@ function App() {
       <Equality />
       <WhiteCross />
       <SquareX />
+      <CircleX />
+      <Arrow />
     </div>
   );
 }
